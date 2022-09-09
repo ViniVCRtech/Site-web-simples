@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Escritas';
+    src: url("VarelaRound-Regular.ttf");
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    font-family: 'Comic Sans', 'Comic Sans';
+}
+
+/* Estilização da sessão HEADER da página*/
+
+header{
+    background: white;
+    padding: -5;
+    margin: -5;
+}
+
+h1{
+    margin: 0;
+    width: 90%;
+
+}
+
+/*Estilização da sessão NAV (navegação) da página*/
+
+nav{
+    position: absolute;
+    top: 110px;
+    right: 0;
+    font-family: 'Escritas', sans-serif;
+
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a{
+    text-transform: uppercase;
+    color:rgb(10, 10, 10);
+    font-weight:600;
+    font-size: 20px;
+    text-decoration:double;
+
+}
+
+nav a:hover{
+    color:rgb(0, 26, 255);
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+/*Esterilização das listas da página*/
+
+ul{
+    list-style-type: style none;;
+}
+
+/*Estelização do Logotipo*/
+
+.logo_caixa{
+    width: 85%;
+    position: relative;
+    margin: 0 0 0 0;
+
+}
+.logo{
+    width: 300px;
+    height: 150px;
+    margin: 0 10px;
+}
+.banner{
+    width: 100%;
+}
+
+/*Estilização mapa*/
+
+.map {
+    padding: 3em 0;
+    background: linear-gradient(white,rgb(74, 198, 255))
+}
+
+.mapa-conteudo {
+ text-align: center; 
+
+
+}
+
+.map p {
+    margin: 0 0 2em;
+    text-align: center;
+}
+
+.principal {
+
+    text-align: center;
+    font-family: 'Escritas', sans-serif;
+    margin: 60px 0px 0px 0px;
+    
+}
+
+#titulo-principal {
+
+    font-family: 'Escritas', sans-serif;
+    text-align: center;
+    font-size: 35pt;
+    font-style: italic;
+
+}
+
+#iot {
+    text-align: center;
+    font-size: 35pt;
+    font-family: 'Escritas', sans-serif;
+
+}
+
+.menu-topico#li {
+
+    text-align: center;
+
+}
+
+u1#lista {
+
+    text-align: left;
+    position: left;
+    font-family: 'Escritas', sans-serif;
+}
+
+#menu-esquerda{
+
+    width: 15%;
+}
+
+#segunda-frase {
+
+    
+    font-family: 'Escritas', sans-serif;
+}
+
